@@ -5,7 +5,7 @@ Benchmarks of BLAS libraries with Scala interface
 This project contains benchmarks for matrix-matrix multiplication of various libraries that have Scala interface. Currently, they are 
   - Breeze, which can use any BLAS library with CBLAS interface by means of underlying Netlib-java
     - OpenBLAS, open source CPU optimized library
-    - NVBLAS, proprietary wrapper for few functions from GPU optimized library CUBLAS
+    - NVBLAS, proprietary Fortran-BLAS wrapper for few functions from GPU optimized library CUBLAS
     - Intel MKL, proprietary CPU optimized library
     - f2jblas, reference Java BLAS implementation
   - BIDMat, based on Intel MKL and GPU CUDA
@@ -24,7 +24,7 @@ https://docs.google.com/spreadsheets/d/1lWdVSuSragOobb0A_oeouQgHUMx378T9J5r7kwKS
   - Fortran BLAS - Reference Fortran interface for BLAS
   - CBLAS - reference C interface for BLAS
   - CUBLAS - proprietary (non-standard) interface for BLAS
-  - NVBLAS - proprietary wrapper for few functions from GPU optimized library CUBLAS
+  - NVBLAS - proprietary reference Fortran-BLAS wrapper for few functions from GPU optimized library CUBLAS
   - Netlib - repository of software for scientific computing 
 
 ## Relevant links
